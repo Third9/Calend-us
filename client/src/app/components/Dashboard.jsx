@@ -117,7 +117,7 @@ class Dashboard extends React.Component {
                         margin: '0 auto',
                         marginBottom: '64px',
                         textAlign: 'center'}}>
-                <p><Link to='/calendar' >{calendar.id}</Link></p>
+                <p><Link to={`/calendar/${calendar.id}`} >{calendar.id}</Link></p>
               </Paper>
             </GridTile>)
           }

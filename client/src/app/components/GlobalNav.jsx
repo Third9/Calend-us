@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router'
 import AppBar from 'material-ui/lib/app-bar'
 import ToolBar from 'material-ui/lib/toolbar/toolbar'
 import ToolbarGroup from 'material-ui/lib/toolbar/toolbar-group'
